@@ -1,0 +1,18 @@
+# --- CÁC THƯ MỤC NẶNG (BẮT BUỘC CHẶN) ---
+.git
+.gradle
+build/
+bin/
+out/
+
+# --- CẤU HÌNH CỦA IDE (TRÁNH NẶNG VÀ LỘ THÔNG TIN) ---
+.vscode
+.idea
+*.iml
+
+# --- CÁC FILE LOG VÀ TẠM THỜI ---
+*.log
+.DS_Store
+
+# --- LƯU Ý: KHÔNG ĐƯỢC CHẶN Dockerfile VÀ .dockerignore ---
+# (Vì Docker Engine cần đọc 2 file này để biết cách build)
